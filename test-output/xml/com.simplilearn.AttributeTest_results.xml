@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Group Test"
+           tests="5"
+           failures="1"
+           errors="0"
+           skipped="1"
+           time="0.233">
+  <properties />
+            <testcase name="r2" time="0.224" classname="com.simplilearn.AttributeTest">
+                <failure type="org.testng.internal.thread.ThreadTimeoutException"
+                  message="Method com.simplilearn.AttributeTest.r2() didn&apos;t finish within the time-out 200"
+              >
+<![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.simplilearn.AttributeTest.r2() didn't finish within the time-out 200
+  java.base/java.lang.Thread.sleep0(Native Method)
+  java.base/java.lang.Thread.sleep(Thread.java:509)
+  com.simplilearn.AttributeTest.r2(AttributeTest.java:46)
+  java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+  java.base/java.lang.reflect.Method.invoke(Method.java:580)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+  org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+  org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+  java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+  java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="r3" time="0.0" classname="com.simplilearn.AttributeTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="testOne" time="0.002" classname="com.simplilearn.AttributeTest" />
+                <testcase name="r1" time="0.003" classname="com.simplilearn.AttributeTest" />
+                <testcase name="testTwo" time="0.004" classname="com.simplilearn.AttributeTest" />
+      
+</testsuite>

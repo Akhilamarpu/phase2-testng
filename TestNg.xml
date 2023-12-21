@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="eCom Webapp Test Suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+	</listeners>
+	<test name="Amazon Test">
+		<classes>
+			<class name="com.simplilearn.Testng.Amazon.AmazonHomepageTest"></class>
+			<class name="com.simplilearn.Testng.Amazon.AmazonLinkVerificationCssSelectorTest"></class>
+			<class name="com.simplilearn.Testng.Amazon.AmazonLinkVerificationTest"></class>
+			<class name="com.simplilearn.Testng.Amazon.AmazonLinkVerificationXpathTest"></class>
+			<class name="com.simplilearn.Testng.Amazon.AmazonSearchTest"></class>
+		</classes>
+	</test>
+	<test name="Group Test">
+		<classes>
+			<class name="com.simplilearn.AttributeTest"></class>
+		</classes>
+	</test>
+	<test name="Other Test">
+		<classes>
+			<class name="com.simplilearn.TestNgStandardAnnotationTest"></class>
+			<class name="com.simplilearn.AssertionTest"></class>
+		</classes>
+	</test>
+</suite>

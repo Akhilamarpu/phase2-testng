@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Other Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.050">
+  <properties />
+  
+  
+            <testcase name="hardAssertTest" time="0.003" classname="com.simplilearn.AssertionTest" />
+                <testcase name="testAsserts" time="0.009" classname="com.simplilearn.AssertionTest" />
+                <testcase name="softAssertTest" time="0.038" classname="com.simplilearn.AssertionTest" />
+      
+</testsuite>
